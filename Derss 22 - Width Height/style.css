@@ -1,0 +1,18 @@
+body{
+    /* View height : Web sitemizin çalıştığı cihazın
+    görünen yükselik alır. 100 vh denildiğinde
+    tamamını doldurur  */
+    height: 100vh;
+
+    /* View Width : : Web sitemizin çalıştığı cihazın
+    görünen genişliğini alır. 100 vh denildiğinde
+    tamamını doldurur */
+    width: 100vw;
+}
+
+
+#mydiv{
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+}

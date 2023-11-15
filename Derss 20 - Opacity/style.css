@@ -1,0 +1,11 @@
+#mydiv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+#mydiv:hover{
+    opacity: 0.5;
+}
+/* Mouse üzerine geldiğinde opaklık değeri yarıya düşen bir kutu oluşturun */

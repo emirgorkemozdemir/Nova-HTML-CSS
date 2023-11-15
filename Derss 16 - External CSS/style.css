@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Sayfadaki tüm etiketleri seçmek için * işareti kullanılır */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Class ile etiket seçmek için . işareti kullanılır */
+.redbox{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.greenbox{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+
+/* ID ile etiket seçmek için # işareti kullanılır */
+#deneme{
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+    /* Transition hover vb. olaylardaki gecikme süresini belirler */
+    transition:1s;
+}
+
+/* Hover özelliği mouse etiketin üzerine geldiğinde
+çalışır */
+#deneme:hover{
+    width: 100px;
+    height: 100px;
+}
+
+/* Birden fazla etiket türü aynı anda seçilebilir */
+h1 , h2 ,h3 , h4{
+    color: green;
+}
+
+/* Paragrafa özel class oluşturduk */
+p.coloredp{
+    color: aqua;
+}
+
+
+

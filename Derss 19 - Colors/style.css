@@ -1,0 +1,9 @@
+#myp{
+    /* HTML Türünde renkleri başına # ekleyerek yazıyoruz */
+    color: #CAA1F0;
+}
+
+#myp2{
+    /* RGB türünde renkleri eklemek için böyle yapabiliriz */
+    color: rgb(202, 161, 240);
+}

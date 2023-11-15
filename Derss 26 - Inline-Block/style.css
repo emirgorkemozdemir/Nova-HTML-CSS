@@ -1,0 +1,10 @@
+#mydiv{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* Inline-block display seçeneği
+     hem inline'ın hem block'un bazı özelliklerini alır.
+     Inline gibi yan yana dizilebilir ancak
+     width ve height değerleri geçerli olur */
+}

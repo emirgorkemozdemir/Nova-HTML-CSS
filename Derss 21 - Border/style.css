@@ -1,0 +1,8 @@
+#mydiv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top: 3px solid black;
+}
+
+/* Mouse üzerine geldiğinde kutumuzun altına kenarlık ekleyen css kodunu yazınız */

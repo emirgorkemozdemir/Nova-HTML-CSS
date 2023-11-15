@@ -1,0 +1,6 @@
+.mydiv{
+    width: 250px;
+    height: 250px;
+    background-color: chartreuse;
+    overflow:scroll;
+}

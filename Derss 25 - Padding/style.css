@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Padding içeriden boşluk bırakmaya yarar.
+    Elementimizin içerisindeki diğer elementler,
+    kenarlardan uzaklaşır */
+}
+
+.red{
+    background-color: red !important;
+    /* Classlar içerisinde aynı 2 kural varsa
+    !important dediğinizi uygular */
+}
+
+.green{
+    background-color: green;
+}

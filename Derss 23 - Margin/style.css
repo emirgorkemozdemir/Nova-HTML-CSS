@@ -1,0 +1,18 @@
+#mydiv{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* Margin değerleri her kenar için tek tek verilebilir */
+    margin-left: 50px;
+
+    /* Margin değerleri tek satırda da verilebilir
+    Bu sıra saat yönüne göredir. Yukarı sağ aşağı sol */
+   /* margin: 50px 40px 30px 20px; */
+
+   /* Her kenar için aynı margin değeri verilecekse
+   tek şekilde yazılabilir
+
+   margin : 25px;
+
+   */
+}
