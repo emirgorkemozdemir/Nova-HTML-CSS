@@ -1,0 +1,8 @@
+#mydiv{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 80px 0px;
+    box-sizing: border-box;
+}

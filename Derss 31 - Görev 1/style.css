@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.topright{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+}
+
+.bottomright{
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

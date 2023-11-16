@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 150vh;
+}
+
+.box{
+    display: inline-block;
+    width:200px;
+    height: 200px;
+    background-color: green;
+
+    /* 
+    Position relative verildiğinde kendisine en yakın
+    elemente göre margin vs değerlerini alır.
+    position: relative;
+    */
+    
+    /* 
+    Fixed position özelliği bir elementin
+    sabitlenmesi durumunda kullanılır. Position fixed
+    olduğunda element bulunduğu yere sabitlenir.
+    Elementin bulunduğu yeri left right top bottom ile
+    duruma göre değiştirebilirsiniz.
+    position: fixed;
+     */
+    
+
+    /*
+    position: static; 
+    static position özelliği varsayılan değerdir.
+    sayfanın akışına göre element yerini alır
+    */
+
+    /*
+    Absolute ile net pozisyon verilebilir.
+    Bunun için left right top bottom özellikleri kullanılabilir
+    Pixel yerine yüzde de kullanılabilir.
+    position: absolute;
+    left: 500px;
+    top: 100px;
+     */
+
+     /* 
+     Fixed => Scroll ile ekran aşağı kaysa da elementimiz
+     bulunduğu noktada sabit kalacak.
+     */
+   
+
+}
