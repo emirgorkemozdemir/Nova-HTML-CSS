@@ -1,0 +1,18 @@
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+
+}
+
+#tooltip{
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+   
+}
+
+.box:hover #tooltip{
+    display: block;
+}

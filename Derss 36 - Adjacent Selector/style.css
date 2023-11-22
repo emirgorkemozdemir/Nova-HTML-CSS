@@ -1,0 +1,8 @@
+/* Adjacent Selector 
+Her divden sonra gelen ilk p etiketini seçer
+Tüm divleri seçmek yerine id ve class ile seçim yapabilirsiniz
+*/
+
+div + p {
+color: red;
+}

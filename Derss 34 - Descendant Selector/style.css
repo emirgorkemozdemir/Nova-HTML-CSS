@@ -1,0 +1,10 @@
+/* Descendant Selector
+İkinci yazılan etiket türü, direkt olarak ilk yazılan
+etiket türünün içerisinde bulunmak zorunda değildir. Örneğin
+div içinde bulunan span'in içindeki p etiketini seçer
+Tüm divleri seçmek yerine id ve class ile seçim yapabilirsiniz
+ */
+
+.mydiv p{
+    color: red;
+}

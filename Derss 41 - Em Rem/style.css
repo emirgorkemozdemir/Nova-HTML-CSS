@@ -1,0 +1,15 @@
+/* Em ve rem kavramları sayfanın üst elementin font büyüklüğüne göre çalışır
+   1em = font büyüklüğü
+   1rem = 16 px'dir
+ */
+
+ body{
+    font-size: 20px;
+ }
+
+ .mydiv{
+    width: 10em;
+    height: 10em;
+    background-color: red;
+ }
+

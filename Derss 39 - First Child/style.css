@@ -1,0 +1,7 @@
+/* p:first-child{
+    color: red;
+} */
+
+div p:first-child{
+    color: red;
+}

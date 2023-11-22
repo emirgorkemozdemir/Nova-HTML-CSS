@@ -1,0 +1,6 @@
+
+/* Before ile element öncesine içerik eklenebilir
+after ile element sonrasına içerik eklenebilir */
+#myheading::after{
+    content: url("smile.gif");
+}

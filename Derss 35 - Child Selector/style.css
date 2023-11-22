@@ -1,0 +1,9 @@
+/* Child Selector 
+İkinci yazılan etiket türü, direkt olarak ilk yazılan
+etiket türünün içerisinde bulunmalıdır. Örneğin
+div içinde bulunan section'ın içindeki p etiketini seçmez
+Tüm divleri seçmek yerine id ve class ile seçim yapabilirsiniz
+*/
+div > p{
+    color: red;
+}
