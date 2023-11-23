@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: darkseagreen;
+    flex-direction:row; /* flex direction içerideki elementlerin hangi yönde olacağını belirler */
+    flex-wrap: wrap; /* taşan ögelerin aşağı satıra inmesini sağlar */
+    justify-content:space-around; /* direction row ise yatayda, direction column ise dikeyde hizalamayı belirler. center => tam ortaya alır. flex-start => en soldan başlatır varsayılan olandır. flex-end => en sağdan başlatır. Space-between => içerideki elementler arasında eşit boşluk bırakır ama kenarlardan boşluk bırakmaz. Space-around ile hem kenarlardan hem de elementler arası  boşluk bırakılır ancak elementler arası boşlukla kenarlar arası boşluk eşitr değildir. Space-evenly ile hem kenarlardan hem de elementler arası boşluk bırakılır ve tüm boşluklar birbirine eşittir. */
+    align-items:center; /* direction row ise dikey hizalama, direction column ise yatay hizalama yapacaktır */
+    align-content:space-between;  /* satır veya sütunlar arası boşluk durumlarını ayarlar*/
+}
+
+.container .item{
+    width: 40px; 
+    height: 40px;
+    border: 1px solid black;
+}

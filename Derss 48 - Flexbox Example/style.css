@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 10%;
+    background-color: palegoldenrod;
+}
+
+.main{
+    height: 20%; 
+}
+
+.palegreendiv{
+    background-color: palegreen;
+}
+
+.palevioletreddiv{
+    background-color: palevioletred;
+}
+
+.peachpuffdiv{
+    background-color:peachpuff;
+}
+
+.footer{
+    height: 30%;
+    background-color: papayawhip;
+}
