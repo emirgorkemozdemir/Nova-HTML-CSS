@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.mybox{
+    /* Calc => calculate yani hesapla demektir. */
+    width:calc(100% - 100px);
+    height: 100%;
+    background-color: chartreuse;
+}
