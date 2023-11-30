@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+.mylinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:180px;
+    height:180px;
+    background: rgb(0, 0, 0,0.8);
+    border: 1px solid rgb(0, 0, 0,0.8);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.middlebar{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mylinks i{
+    font-size:4em;
+    color: whitesmoke;
+    
+}
+/*
+ mylinks hover olduğunda
+ mylinksin arka planını değiştirdik
+*/
+.mylinks:hover{
+    background-color: whitesmoke;
+}
+
+/*
+ mylinks hover olduğunda
+ i'lerin rengini değiştirdik
+*/
+.mylinks:hover i{
+    color: rgb(0, 0, 0,0.8);
+}
+
+@media screen and (max-width: 960px) {
+    body{
+        font-size: 14px;
+    }
+
+    .middlebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    .mylinks{
+        width: 140px;
+        height: 140px;
+    }
+}
