@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+#navbar{
+    height: 4%;
+    width: 100%;
+    background-color: #352F44;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbarp1{
+    width: 30%;
+    padding: 0 0.6em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbarp1 h2{  
+    color: #FAF0E6;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#navbarp1 h2:hover{
+    color: #B9B4C7;
+}
+
+#navbarp2{
+    width: 70%;
+    padding: 0 0.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbarp2 a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #FAF0E6;
+    transition: 0.2s;
+}
+
+#navbarp2 a:hover{
+    color: #B9B4C7;
+}
+
+#p2{
+    height: 46%;
+    background-color: #FAF0E6;
+}
+
+#p3{
+    height: 50%;
+    background-color: #5C5470;
+}
+
+@media screen and (max-width: 750px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+#navbar{
+    flex-direction: column;
+    /* width veya height a auto özelliği verebilmeniz için diğerinin atanmış olması lazım.*/
+    height: auto;
+}
+
+#navbarp1{
+    width: 100%;
+    justify-content: center;
+}
+
+#navbarp2{
+    width: 100%;
+    flex-direction: column;
+}
+}
