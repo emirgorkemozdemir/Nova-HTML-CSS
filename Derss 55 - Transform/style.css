@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.mydiv{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.mydiv:hover{  
+    /* Rotate ile elementi derece vererek döndürebiliriz */
+    /*transform: rotate(40deg);*/
+    /*transform:scaleY(1.5);?*/
+    /*transform: scale(2,3);?*/
+    /*transform: skew(20deg,30deg)*/
+    transform: translate(-50px,30px);
+    
+    
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    background-color: cadetblue;
+    /* grid template columns column yani sütunların sayısını belirler kaç tane değer yazarsanız o kadar sütun olur */
+    grid-template-columns: auto auto;
+
+    /* grid template columns column yani satırların sayısını belirler kaç tane değer yazarsanız o kadar satır olur */
+    grid-template-rows: auto auto auto auto auto;
+
+    /* sütunlar arası boşluk miktarını belirler */
+    column-gap: 5%;
+
+    /* satırlar arası boşluk miktarını belirler */
+    row-gap: 5%;
+
+    /*
+    gap değeri hem column hem row gap değerlerini ortak olarak vermek için kullanılır
+    gap: 5%;
+    */
+    padding: 5%;
+}
+
+.box{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
